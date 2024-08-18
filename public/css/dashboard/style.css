@@ -1,0 +1,133 @@
+#close{
+    outline: none;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    text-align: center;
+    border: 0.2rem solid black ;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    &:hover{
+    color: #fff;
+    background-color: gray;
+}
+    &:active{
+        letter-spacing: 0.2rem;
+            }
+            &:before{
+                content: "CLOSE";
+            }
+        }
+
+#create
+{
+    outline: none;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #fff;
+    color: indigo;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    text-align: center;
+    border: 0.2rem solid indigo ;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    &:hover{
+    color: #fff;
+    background-color: indigo;
+}
+    &:active{
+        letter-spacing: 0.2rem;
+            }
+            &:before{
+                content: "SUBMIT";
+            }
+        }
+#update
+{
+    outline: none;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #fff;
+    color: rgb(186, 12, 107);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    text-align: center;
+    border: 0.2rem solid rgb(186, 12, 107) ;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    &:hover{
+    color: #fff;
+    background-color: rgb(186, 12, 107);
+}
+    &:active{
+        letter-spacing: 0.2rem;
+            }
+            &:before{
+                content: "UPDATE";
+            }
+        }
+
+    .effect1 {
+        width: 4rem;
+        border-color: rgb(143, 137, 137);
+        border-width: 0.3rem;
+        border-right-color: rgb(186, 12, 107);
+        animation: rotate 1s linear infinite;
+        -webkit-animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(260deg);
+        -webkit-transform: rotate(260deg);
+        -moz-transform: rotate(260deg);
+        -ms-transform: rotate(260deg);
+        -o-transform: rotate(260deg);
+}
+}
+
+.effect2{
+    background-color: indigo;
+    &:before{
+        content: "\f00c";
+        font-family: "FontAwesome";
+        color: #fff;
+        font-size:1.5rem;
+    }
+}
+
+
